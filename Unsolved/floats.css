@@ -8,57 +8,69 @@
 }
 
 body {
+  font-size: 24px;
 }
 
 header {
   padding: 20px;
   margin-bottom: 20px;
-  color: #333;
+  color: white;
   background: #ccc;
 }
 
 section {
-  background-color: #eee;
-  float: left;
-  color: white
+  padding: 20px;
+  margin-bottom: 20px;
+
 }
 
 #left {
   background-color: #666;
   float: left;
-  color: white
-  display: inline-block;
-  height: 100px;
-  width: 200px;
-  
+  color: white;
+  width: 33%;
 }
 
 #middle {
   background-color: #888;
   float: left;
-  color: white; 
+  color: white;
+  width: 33%; 
 }
 
 #right {
   background-color: darkgray;
-  float: right;
+  float: left;
   color: white;
+  width: 33%;
 }
 
 #full {
-  padding: 40px;
-  margin-bottom: 40px;
+  clear: both;
+  background-color: #eee;
+  overflow: auto;
+  width: 100%;
 }
 
 #division {
-  background-color: #6ea3da
+  background-color: #6ea3da;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 aside {
-  background-color: #fff
+  background-color: #fff;
+  color: black;
+  width: 33%;
+  height: 200px;
+  border: 1px solid #eee;
+  padding: 20px;
+  float: left;
+  margin-left: 30px;
 }
 
 footer {
+  clear: both;
   padding: 20px;
   margin-bottom: 20px;
   color: black;
